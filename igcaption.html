@@ -502,16 +502,16 @@ html{
         }
 
         if($(window).height()<400){
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-200.svg");
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-200.svg");
         }
         else if($(window).height()<600){
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-300.svg")
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-300.svg")
         }
         else if($(window).height()<750){
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-400.svg")
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-400.svg")
         }
         else{
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-500.svg")
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-500.svg")
         }
         document.getElementById('width-img').style.width=$(window).width()+"px";
     });
@@ -571,16 +571,16 @@ html{
         }
 
         if($(window).height()<400){
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-200.svg");
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-200.svg");
         }
         else if($(window).height()<600){
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-300.svg")
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-300.svg")
         }
         else if($(window).height()<750){
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-400.svg")
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-400.svg")
         }
         else{
-            document.getElementById('bgimg-wave').setAttribute("src","./hackeroverflow/images/rect-500.svg")
+            document.getElementById('bgimg-wave').setAttribute("src","./igcs/images/rect-500.svg")
         }
 
         document.getElementById('editor').scrollTo(0,getCaretCoordinates(document.getElementById('editor'), document.getElementById('editor').selectionEnd).top);
@@ -1208,7 +1208,7 @@ var input="";
                         if (userObject.is_verified) {
 
                             var verifiedImage = document.createElement("img");
-                            verifiedImage.setAttribute("src", "./hackeroverflow/images/verified.png");
+                            verifiedImage.setAttribute("src", "./igcs/images/verified.png");
                             verifiedImage.setAttribute("style", "height: 10px;width: 10px;margin-left: 5px;");
                             usernameDiv.appendChild(span);
                             usernameDiv.appendChild(verifiedImage);
@@ -1287,7 +1287,7 @@ var input="";
         var imgDiv = document.createElement("div");
         imgDiv.classList.add("toast-img");
         var img = document.createElement("img");
-        img.setAttribute("src","./hackeroverflow/images/crt2.svg")
+        img.setAttribute("src","./igcs/images/crt2.svg")
         img.setAttribute("style","width:35px;height:35px;margin-left: 5px;");
         imgDiv.appendChild(img);
 

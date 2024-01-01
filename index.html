@@ -44,7 +44,7 @@
               <li><a href="#emoji-page">FEATURES</a></li>
               <li><a href="#hiw-page">HOW IT WORKS</a></li>
               <li><a href="#end-page">ABOUT US</a></li>
-              <li><a href="">TRY FOR FREE</a></li>
+              <li><a href="/IGCaption/igcaption.html">TRY FOR FREE</a></li>
             </ul>
           </nav>
         </section>
@@ -66,7 +66,7 @@
                 </div>
               </div>
             </div>
-            <div class="center" style="height: 75px;"><div class="button center-all" style="height: inherit;font-weight: bold;font-family: Montserrat;border-radius: 5px;animation: opacityIn 1s;
+            <div onclick="openIGCaptionPage()" class="center" style="height: 75px;"><div class="button center-all" style="height: inherit;font-weight: bold;font-family: Montserrat;border-radius: 5px;animation: opacityIn 1s;
       animation-delay: 3.5s;
       opacity: 0;
       animation-fill-mode: forwards;">
@@ -286,7 +286,7 @@
         <section id="endpage-text-normal">Write beautifully  formatted captions for
           Instagram post in 30 seconds
           #MadeWithIgcaptions</section>
-        <section class="button-endpage center-all" style="border-radius: 5px;font-weight: bold;color: white;">
+        <section onclick="openIGCaptionPage()" class="button-endpage center-all" style="border-radius: 5px;font-weight: bold;color: white;">
           TRY FOR FREE
         </section>
       </section>
@@ -303,6 +303,10 @@
     var y = e.pageY-window.innerHeight;
     createParticle(x, y);
   });
+  
+  function openIGCaptionPage() {
+    window.location.href = "/IGCaption/igcaption.html";
+  }
 </script>
 
 </body>
