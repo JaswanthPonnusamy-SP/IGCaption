@@ -11,7 +11,7 @@ const ASSETS_TO_CACHE = [
   '/IGCaption/igcs/js/main-js.js',
     '/IGCaption/igcs/css/cssanimation.css',
   '/IGCaption/igcs/css/main.css',
-    'https://jaswanthponnusamy-sp.github.io/IGCaption/igcs/images/Like.png',
+    '/IGCaption/igcs/images/Like.png',
     '/IGCaption/igcs/images/heart.png',
     '/IGCaption/igcs/images/angry.png',
     '/IGCaption/igcs/images/Haha_face.png',
@@ -19,7 +19,7 @@ const ASSETS_TO_CACHE = [
     '/IGCaption/igcs/images/Wow_face.png',
     '/IGCaption/igcs/images/rect-500.svg',
     '/IGCaption/igcs/images/hand.svg',
-    'IGCaption/igcs/mp4/final.mp4'
+    '/IGCaption/igcs/mp4/final.mp4'
 ];
 
 self.addEventListener('install', (event) => {
